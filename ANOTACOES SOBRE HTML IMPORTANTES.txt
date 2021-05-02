@@ -1,0 +1,747 @@
+HTML PAGINAS WEB
+PROF MARCO ANTONIO
+
+
+criação no visual studio
+
+
+PRIMEIRA CRIAÇÃO
+
+<h1><ol>Olá Mundo!</ol></h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Santos curriculum</title>
+</head>
+<body>
+<h1>Curriculum Vitae - Bruno Santos </h1>
+<ol>
+<h2>SEÇÃO DADOS PESSOAIS</h2>
+<ul><li><strong>Nome.</strong> bruno aparecido dos santos </li>
+<li><strong>Endereço.</strong> São josé dos campos</li>
+<li><strong>Email.</strong> . brunosprisc@gmail.com</li>
+<li><strong>Rede social.</strong> Rede social</li>
+</ol>
+<ol>
+<h2>SEÇÃO EXPERIÊNCIA PROFISSIONAL</h2></ol>
+<ul>
+<ol>
+    <li> <strong>PETROBRAS</strong>  <br> Analista</li>
+    <li> <strong>SAMSUNG</strong> <br>Soldador </li>
+    <li><strong> LG </strong><br> teste de Televisores</li>
+    <li><strong>PETROQUIMICAS SA</strong> <br> quimico doido</li>
+    <li><strong>OFFICE BOY</strong> <br>no grau </li>
+
+ </ol>
+</ul>
+<ol>
+<h2>EXPERIÊNCIA ACADÊMICA</h2>
+</ol>
+<ul>
+<ol>
+<li><strong>10</strong> Anos analise</li> <br>
+<li><strong>25</strong>Anos de rolissagem</li><br>
+<li><strong>35</strong> Anos de moscagem</li><br>
+<li><strong>60</strong> Anos de bobeira</li><br>
+<li><strong>25</strong> analista sistema</li>
+</ol>
+</ul>
+<ol>
+<h2>Objetivos</h2>
+</ol>
+<ul>
+<li><strong>Crescer</strong> profissionalmente oferecendo a colaboração para o crescimento da empresa.
+    Crescer profissionalmente oferecendo a colaboração para o crescimento da empresa.
+profissionalmente oferecendo a colaboração para o crescimento da empresa.</li> <br>
+</ol>
+
+
+</ul>
+
+
+<ol><h2>Quem sou eu ?!</h2>
+    </ol>
+    <ul><li>
+Alguem tranquilo e calmo, <strong>sempre</strong> disposto a apreender mais e mais, alguem tranquilo e calmo.
+    Alguem tranquilo e calmo, <strong>sempre</strong> disposto a apreender mais e mais, alguem tranquilo e calmo.
+    Alguem tranquilo e calmo, <strong>sempre</strong> disposto a apreender mais e mais, alguem tranquilo e calmo.
+    Alguem tranquilo e calmo, <strong>sempre</strong> disposto a apreender mais e mais, alguem tranquilo e calmo.
+     </li></ul>
+
+
+WWW.DONTPAD.COM ( COLAR CODIGO PARA VISUALIZAR)
+
+IMPORTANTE TER INSTALADO COMPLEMENTOS
+HTML CSS SUPPORT
+HTML SNIPPETS
+PORTUGUESE
+
+    
+</body>
+</html>
+
+
+CODIGOS IMPORTANTES
+! = JÁ cria o corpo 
+<h1> = defini o titulo
+<H2> = titulo
+<OL> = cria ordem de lista
+<IL> = indiçe de lista
+
+<strong> =reforça negrito
+alt+z = clica onde quer a quebra de linha
+
+<ol type="ctrl + barra e espaço"> ele mostra as opções de ordem.
+(não precisa fechar)
+
+<ul type="ctrl + barra espaço">  ele mostra as opções 
+
+Link é definido com a tag A dentro de qualquer estrutura
+(seleciona o testo e aperta .,) vira comentario no código
+
+para transformar em link
+<a href="">Senac</a>
+
+<a href="LINK AQUI">
+TARGET="_BLANCK"> SENAC</a>
+
+<a href="https://www.samsung.com/br/" target="_blank">SAMSUNG</a> 
+(transforma em link e abre outra pagina)
+
+
+<a href="mailto:marco.lima@sp.senac.br">marco.lima@sp.senac.br</a>
+
+======
+
+css - aparencia
+css - cascading style sheets
+folha de estilo em cascata
+
+DECLARAR CSS NA TAG
+DECLARAR CSS INTERNO
+DECLARAR  CSS EXTERNO
+
+<li style="color">
+
+
+PARA TRABALLHAR CSS DENTRO DO HTML
+APENAS DENTRO DE "HEAD" E DENTRO DE "STYLE"
+
+head style /style head
+
+
+
+body{
+color: #fff;
+background-color: #000;
+}
+
+
+
+
+<style> 
+strong{ 
+ color:
+}
+</style>
+
+O STRONG ELE CRIA UMA REGRA PARA TODOS OS STRONGS 
+
+
+
+<style> 
+strong{ 
+ color:#000
+font-weight:bold;
+}
+</style>
+
+
+strong color font weight configura o estilo de fonte em negrito
+
+--------------
+<style> 
+body{
+margin:50 px;
+}
+</style>
+
+formata as quatro margens da tela
+
+
+----------
+
+ margin: 50px;
+            background-color: #222;
+            color: #bbb;
+
+Fundo de cor da tela
+
+---------------
+
+ margin: 50px;
+            background-color: #222;
+            color: #bbb;
+font-family:
+
+permite escolher o estilo de fonte
+
+----------
+
+li style
+
+head><style>
+
+quando se escreve a sintasse STYLE , entra em modo de editor CSS
+
+---------
+
+
+antes de /head colocando o , definimos a porcentagem de distancia titulo
+ H2 {margin-top:80px;}
+
+=--------------
+
+REGRA PARA OS PARAGRAFOS em cada texto
+p{
+width: 70%
+text-align:justify;
+text-indent:10px;
+text-transform:
+}
+
+
+-----------
+
+REGRA PARA TRABALHAR COM PSEUDO CLASSE
+
+p:: 
+
+
+REGRA PARA TRABALHAR PSEUDO CLASSE 
+h2:hover{
+color:orange}
+
+(quando passar o mouse sobre texto altera a cor, vira regra apenas para titulos)
+
+
+=======
+
+Criar menu vertical
+
+
+links de ancora são links que navemgam procurando uma tag <a name> ou um atributo ID dentro de uma TAG
+
+
+<nav> 
+<ul> 
+<li><a href="#dados_pessoais">Dados pessoais</a></li>
+<li><a></a></li>
+<li><a></a></li>
+<li><a></a></li>
+</ul>
+</nav>
+
+
+
+
+ctrl +; ( vira comentario )
+
+
+
+´----------------------
+
+
+<nav> 
+<ul> 
+<li><a href="#dados_pessoais">Dados pessoais</a></li>
+<li><a></a></li>
+<li><a></a></li>
+<li><a></a></li>
+</ul>
+</nav>
+
+direcionamento LINK
+
+======
+
+<h2 id="tudominusculo">TITULO</h2>
+
+identificação do link
+
+
+=========
+/* converte tags li e a para tipo de caixa (tipos: inline e caixa) */
+        nav ul li, nav ul li a{
+            
+        }
+
+
+
+
+/* Essa regra afeta apenas ul e li dentro de nav */
+        nav ul{
+            list-style-type: none;
+padding: 0;
+width: 200px;
+        }
+
+
+
+--------
+
+        nav ul li, nav ul li a{
+          display: block;  
+        }
+nav ul li a{
+background-color: peru;
+}
+
+mudou a cof de fundo das palavras
+
+
+====
+
+
+nav ul li a:hover{
+
+            background-color: #000;
+
+            color: #fff;
+
+        }
+
+(mudou a cor de fundo de mouse passando)
+
+-------------
+
+
+<figure>
+        <img src="minha_foto.jpg">
+    </figure>
+
+imagem de fundo
+
+------------
+
+<figure>
+        <img src="minha_foto.jpg" width="100" alt="foto de ">
+    </figure>
+
+imagem de fundo 
+
+
+
+
+-----------
+criar regra de imagem com css
+dentro de <style> lá em cima
+(altera o tamanho da foto)
+
+figure{
+width:300px;
+margin:0 auto;}
+
+
+
+===============
+
+
+como colocar uma foto dentro da imagem redonda
+
+
+
+============
+
+PARA RESOLVER O PROBLEMA DA FOTO EM FORMATO OVAL:
+
+Remova o atributo WIDTH na tag <img> e adicione a seguinte regra:
+
+PARA FOTOS OVAL HORIZONTAL
+
+figure img{
+
+width: 100%;
+
+}
+
+E PARA FOTOS OVAL VERTICAL
+
+figure img{
+
+height: 100%;
+
+}
+
+
+==============
+
+Dentro do css para colocar sombra na  caixa
+fundo da foto 
+
+ body{
+            margin: 50px;
+            background-color: #aaa;
+            color: #444;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+========
+
+colocar dentro do figure ativa a sombra
+box-shadow: 3px 3px 5px #000;
+
+===
+
+
+!
+( já coloca todo o comando basico)
+
+======
+
+tudo que aparece como conteudo tem que ser decladado tabme dentro de Body/body
+
+
+https://cdnjs.com/libraries
+
+sites tem icones onde se pode incorporar na pagina
+
+
+<link rel="stylesheet" href=" " integrity="==" crossorigin="anonymous" />
+
+
+
+-----
+
+css externo
+criou novo arquivo dentro do CSS foi nomeado como estilo.css
+
+
+carrega dentro de head
+
+<head>
+<link rel="stylesheet"
+href="css/estilo.css">
+
+
+</head>
+<body>
+    <i class="fas fa-building"></i>
+    <header>
+<div class="logo"></div>
+        
+    </header>
+</body>
+
+
+
+====
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Overlock+SC&display=swap" rel="stylesheet">
+
+tem que colar antes do carregamento do codigo do CSS
+
+
+
+======
+
+font-family: 'Dancing Script', cursive;
+
+CSS rules to specify families
+
+criando regra para fontes na aba CSS
+
+==
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Permanent Marker', cursive;`{
+        body{
+
+            font-family: 'Roboto', sans-serif;
+    }
+
+
+==
+
+Dentro do CSS
+
+colocar cor de fundo no cabeçalho
+header{
+
+    background-color: forestgreen;
+
+}
+
+=========
+
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Permanent Marker', cursive;
+
+    margin: 0;
+
+}
+
+
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+
+}
+
+colocar 0 margem na borda de fundo.
+
+========
+
+adicionar margem interna PADDING, para evitar que texto cola nas margens , margem dentro do elemento
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Permanent Marker', cursive;
+
+    margin: 0;
+
+}
+
+
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    padding:10px
+
+}
+
+
+=============
+
+COLOR
+
+body{
+    
+        font-family: 'Roboto', sans-serif;
+    
+        margin: 0;
+        padding: 10px;
+        color: blue;
+    
+    }
+    }
+    header{
+
+
+==========
+INSERINDO IMAGEM DE FUNDO NO HTML
+PAGINA PRINCIPAL
+
+
+</header>
+    <div class="conteudo">
+
+        <div class="coluna1">
+
+<img src="img/foto-luiz-fernando-verissimo.jpg" width="90%" alt="Foto do Escritor Luis Fernando Veríssimo tocando saxofone">
+
+        </div>
+
+        <div class="coluna2">
+
+            
+
+        </div>
+
+    </div>
+
+
+
+
+=====
+para ir acrescentando nas outras paginas html
+dentro do 
+</header>
+    
+<div class="coluna1">
+
+
+
+</div>
+
+<div class="coluna2">
+
+
+
+</div>
+
+
+
+======
+para incporara videos do youtube
+dentro do HTML
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K4rGsBjPI3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+==========
+NO CSS
+
+alinhamento da coluna 1 e 2
+
+
+
+.coluna1{
+         width: 30% ;
+         float: left;
+}
+.coluna2{
+         width: 60%;
+         float: right;
+}
+
+
+
+
+=========
+para limpar os espaços vazios
+ao inves de preencher altomatico
+usa comando no CSS dentro de footer
+
+
+footer{
+
+    clear: both;
+
+    margin-top: 40px;
+
+}
+
+
+
+
+
+=============
+
+NO CSS
+
+alinhamento da coluna 1 e 2 com a margem separando elementos
+
+
+
+.coluna1{
+         width: 30% ;
+         float: left;
+         margin-bottom:40px;
+}
+.coluna2{
+         width: 60%;
+         float: right;
+            margin-bottom:40px;
+         border-left: 1px solid #777 ;
+         padding-left: 20px;
+
+}
+
+
+
+============
+Dentro do HTML antes de </head>
+
+criar uma regra interna
+atravez da <style></style>
+
+
+=========
+cortar a imagen , tem que por img src dentro de figure no html
+
+
+<figure>
+            <img src="img/luizfernando.jpg"  width="90%" alt="Foto do Escritor Luis Fernando Veríssimo"></figure>
+
+
+e adiciona dentro da tag <style>
+figure{
+
+            height: 450px;
+
+            overflow: hidden;
+
+        }
+</style>
+
+
+=======
+existem duas formas de publicação
+em servidor
+
+FTP e GITHUB
+
+========
+NO HTML
+dentro da tag style
+criar regra
+para fundo
+
+pode acrescentar imagem PNG em size ajusta tamanho.
+
+<style>
+    body{
+         background-image: url('img/img-fundo.png');
+        background-color: black;
+        background-size: 100%;
+
+
+===
+mais alguns elementos de background abaixo
+
+
+body{
+            background-image: url('img/img-fundo.png');
+            background-color: #ccc;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+=====================
+
+<p style="text-align:center">Essa linha vai ficar centralizada.<br>
+E esta linha também.</p>
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
